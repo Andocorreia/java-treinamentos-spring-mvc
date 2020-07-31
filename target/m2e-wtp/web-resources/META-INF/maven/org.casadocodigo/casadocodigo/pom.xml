@@ -96,8 +96,9 @@
 	<dependency>
 	    <groupId>mysql</groupId>
 	    <artifactId>mysql-connector-java</artifactId>
-	    <version>8.0.21</version>
+	    <version>5.1.15</version>
 	</dependency>
+	
 	<dependency>
 	    <groupId>javax.validation</groupId>
 	    <artifactId>validation-api</artifactId>
@@ -108,23 +109,24 @@
 	    <artifactId>hibernate-validator</artifactId>
 	    <version>4.2.0.Final</version>
 	</dependency>
-
+	
 	<dependency>
-		<groupId>org.projectlombok</groupId>
-		<artifactId>lombok</artifactId>
-		<optional>true</optional>
-		<version>1.18.0</version>
+	    <groupId>com.fasterxml.jackson.core</groupId>
+	    <artifactId>jackson-core</artifactId>
+	    <version>2.5.1</version>
 	</dependency>
 	<dependency>
-	 <groupId>org.antlr</groupId>
-	 <artifactId>antlr-complete</artifactId>
-	 <version>3.5.2</version>
-	</dependency> 
+	    <groupId>com.fasterxml.jackson.core</groupId>
+	    <artifactId>jackson-databind</artifactId>
+	    <version>2.5.1</version>
+	</dependency>
+
 </dependencies>
+  
   <properties>
     <failOnMissingWebXml>false</failOnMissingWebXml>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>  
+  </properties>
 </project>
