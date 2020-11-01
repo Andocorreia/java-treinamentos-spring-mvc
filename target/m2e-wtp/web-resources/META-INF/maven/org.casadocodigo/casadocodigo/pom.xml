@@ -6,7 +6,7 @@
   <version>1.0.0-SNAPSHOT</version>
   <packaging>war</packaging>
   <build>
-    <finalName>casadocodigo</finalName>
+    <finalName>java-treinamentos-spring-mvc</finalName>
   </build>
   
   <dependencies>
